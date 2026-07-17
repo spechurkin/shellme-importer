@@ -44,5 +44,9 @@
       "name": "Русский",
       "path": "languages/ru.json"
     }
-  ]
+  ],
+  "readme": "README.md",
+  "url": "https://github.com/spechurkin/shellme-importer",
+  "manifest": "https://github.com/spechurkin/shellme-importer/releases/latest/download/module.json",
+  "download": "https://github.com/spechurkin/shellme-importer/releases/latest/download/shellme-importer.zip"
 }
