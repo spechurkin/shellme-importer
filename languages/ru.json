@@ -1,0 +1,14 @@
+{
+  "ShellMeImporter.Button": "Shellme",
+  "ShellMeImporter.Importing": "Импорт персонажа {name} из ShellMe...",
+  "ShellMeImporter.Complete": "Персонаж ShellMe {name} импортирован.",
+  "ShellMeImporter.Failed": "Не удалось импортировать ShellMe: {message}",
+  "ShellMeImporter.InvalidJson": "Выбранный файл не содержит объект персонажа ShellMe.",
+  "ShellMeImporter.InvalidName": "В персонаже ShellMe не указано имя.",
+  "ShellMeImporter.InvalidStats": "В персонаже ShellMe отсутствует объект характеристик.",
+  "ShellMeImporter.WrongSystem": "Для модуля Shellme требуется система Cyberpunk RED - CORE.",
+  "ShellMeImporter.WrongActorType": "Импорт ShellMe доступен только в листе персонажа или статиста Cyberpunk RED.",
+  "ShellMeImporter.QuickInsertMissing": "Для импорта роли и предметов необходимо включить Quick Insert.",
+  "ShellMeImporter.RoleNotFound": "Quick Insert не нашёл роль Cyberpunk RED: {role}.",
+  "ShellMeImporter.ItemsNotFound": "Quick Insert не нашёл следующие предметы: {items}."
+}

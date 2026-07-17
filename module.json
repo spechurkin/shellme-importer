@@ -1,0 +1,48 @@
+{
+  "id": "shellme-importer",
+  "title": "Shellme Importer",
+  "description": "Импорт персонажей ShellMe из JSON в Cyberpunk RED - CORE",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": 12,
+    "verified": 12,
+    "maximum": 12
+  },
+  "authors": [
+    {
+      "name": "HoloLight17"
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "cyberpunk-red-core",
+        "type": "system",
+        "compatibility": {
+          "minimum": "0.92",
+          "verified": "0.92.4"
+        }
+      }
+    ],
+    "requires": [
+      {
+        "id": "quick-insert",
+        "type": "module",
+        "compatibility": {
+          "minimum": "3.7.1",
+          "verified": "3.7.1"
+        }
+      }
+    ]
+  },
+  "esmodules": [
+    "scripts/module.js"
+  ],
+  "languages": [
+    {
+      "lang": "ru",
+      "name": "Русский",
+      "path": "languages/ru.json"
+    }
+  ]
+}
