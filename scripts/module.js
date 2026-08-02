@@ -4,7 +4,12 @@ import {logAction, logError} from "./logger.js";
 Hooks.on("getActorSheetHeaderButtons", getActorSheetHeaderButtons);
 
 function getActorSheetHeaderButtons(sheet, buttons) {
-    if (!game.user.can("FILES_UPLOAD")) return;
+    const {CPRCharacterActorSheet, CPRMookActorSheet} = game.cpr?.apps ?? {};
+    const isImportSheet =
+        (CPRCharacterActorSheet && sheet instanceof CPRCharacterActorSheet)
+        || (CPRMookActorSheet && sheet instanceof CPRMookActorSheet);
+
+    if (!game.user.can("FILES_UPLOAD") || !isImportSheet) return;
 
     buttons.unshift({
         label: game.i18n.localize("ShellMeImporter.Button"),
